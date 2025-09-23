@@ -42,14 +42,14 @@ The goal is to classify reviews as **positive** or **negative** using machine le
 ## 💾 Saved Artifacts
 All models and preprocessing steps are saved in Google Drive:
 
-- Logistic Regression: `/content/drive/MyDrive/Logistic_Regression.pkl`  
-- Random Forest: `/content/drive/MyDrive/Random_Forest.pkl`  
-- TF-IDF Vectorizer: `/content/drive/MyDrive/tfidf_vectorizer.pkl`  
+- Logistic Regression: `[https://drive.google.com/file/d/1g-eVhEQgDO7wBnELZJQ1iMmWz0p8Ecpa/view?usp=sharing]`  
+- Random Forest: `[https://drive.google.com/file/d/1lZz_VTRA1qB9a_x1OxSpK162GwhjPNIe/view?usp=sharing]`  
+- TF-IDF Vectorizer: `[https://drive.google.com/file/d/1NxEO1Th7oSNXLw9jckjUuTTf0VGOsCaC/view?usp=sharing]`  
 
 ---
 
 ## 🚀 How to Use
-To load and use the saved models for inference:
+first save the above models in your drive then load and use the saved models for inference:
 
 ```python
 import joblib
