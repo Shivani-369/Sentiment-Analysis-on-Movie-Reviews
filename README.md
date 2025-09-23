@@ -66,7 +66,7 @@ print(model.predict(review_vec))  # Output: ['positive']
 
 ### Confusion Matrices
 #### Logistic Regression
-![Confusion Matrix - Logistic Regression](confusion_matrix_lr.png)
+![Confusion Matrix - Logistic Regression](confusion.png)
 
 #### Random Forest
 ![Confusion Matrix - Random Forest](confusion_matrix_rf.png)
