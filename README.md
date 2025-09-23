@@ -36,6 +36,17 @@ The goal is to classify reviews as **positive** or **negative** using machine le
 ## 📉 Visualizations
 - Confusion Matrix plots for both models.
 - Bar chart comparison of metrics (Accuracy, Precision, Recall, F1-score).
+- 
+### Confusion Matrices
+#### Logistic Regression
+![Confusion Matrix - Logistic Regression](confusion.png)
+
+#### Random Forest
+![Confusion Matrix - Random Forest](confusion_matrix_rf.png)
+
+### Model Comparison
+![Model Comparison](comp.png)
+
 
 ---
 
@@ -62,16 +73,5 @@ model = joblib.load("/content/drive/MyDrive/Logistic_Regression.pkl")
 review = ["The movie was absolutely fantastic, I loved it!"]
 review_vec = vectorizer.transform(review)
 print(model.predict(review_vec))  # Output: ['positive']
-## 📉 Visualizations
-
-### Confusion Matrices
-#### Logistic Regression
-![Confusion Matrix - Logistic Regression](confusion.png)
-
-#### Random Forest
-![Confusion Matrix - Random Forest](confusion_matrix_rf.png)
-
-### Model Comparison
-![Model Comparison](comp.png)
 
 
