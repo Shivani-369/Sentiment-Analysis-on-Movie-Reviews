@@ -72,6 +72,6 @@ print(model.predict(review_vec))  # Output: ['positive']
 ![Confusion Matrix - Random Forest](confusion_matrix_rf.png)
 
 ### Model Comparison
-![Model Comparison](model_comparison.png)
+![Model Comparison](comp.png)
 
 
