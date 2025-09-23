@@ -36,7 +36,7 @@ The goal is to classify reviews as **positive** or **negative** using machine le
 ## 📉 Visualizations
 - Confusion Matrix plots for both models.
 - Bar chart comparison of metrics (Accuracy, Precision, Recall, F1-score).
-- 
+
 ### Confusion Matrices
 #### Logistic Regression
 ![Confusion Matrix - Logistic Regression](confusion.png)
