@@ -40,11 +40,11 @@ The goal is to classify reviews as **positive** or **negative** using machine le
 ### Confusion Matrices
 #### Logistic Regression
 ![Confusion Matrix - Logistic Regression](LR.png)
-(LR_traintest.png)
+![Train vs test - Logistic Regression](LR_traintest.png)
 
 #### Random Forest
 ![Confusion Matrix - Random Forest](confusion_matrix_rf.png)
-(rf_traintest.png)
+![Train vs test - Random Forest](rf_traintest.png)
 
 ### Model Comparison
 ![Model Comparison](comp.png)
