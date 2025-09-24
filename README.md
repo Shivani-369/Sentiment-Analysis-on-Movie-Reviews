@@ -34,10 +34,10 @@ The goal is to classify reviews as **positive** or **negative** using machine le
 ---
 
 ## 📉 Visualizations
-- Confusion Matrix plots for both models.
+- Confusion Matrix plots and Train vs Test Performance Graph for both models.
 - Bar chart comparison of metrics (Accuracy, Precision, Recall, F1-score).
 
-### Confusion Matrices
+### Confusion Matrices and Train vs Test Performance Graph
 #### Logistic Regression
 ![Confusion Matrix - Logistic Regression](LR.png)
 ![Train vs test - Logistic Regression](LR_traintest.png)
